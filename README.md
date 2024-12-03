@@ -1,0 +1,3 @@
+This is just the raw cpp code for the bot itself, it can't just be ran by itself as it relies on the D++ library. If you wanted to run this bot for whatever reason and not just look at the code you would need to install D++ and replace the BOT_TOKEN string at the top with your own obtained from the Discord developer portal at https://discord.com/developers/applications. 
+
+The bot itself is fairly simple once online. You can create a factory channel using /factory [name]. Once the factory channel has been made entering it will create new channels below it following the naming scheme of the factory. When you want to remove the factory and the channels that came about as a result you can do /remove [name] to delete that factory and all of its children.
